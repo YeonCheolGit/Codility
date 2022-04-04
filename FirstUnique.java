@@ -20,8 +20,13 @@ class FirstUnique {
 
     private int findFirstUniqueElement(int[] A, Map<Integer, Integer> duplicatedCounts) {
         for (int element : A) {
-            if (duplicatedCounts.get(element) == 1) return element;
+            if (isDuplicateCountOne(duplicatedCounts, element)) return element;
         }
+
         return -1;
+    }
+
+    private boolean isDuplicateCountOne (Map<Integer, Integer> duplicatedCounts, int element) {
+        return duplicatedCounts.get(element) == 1;
     }
 }
