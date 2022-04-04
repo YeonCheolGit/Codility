@@ -1,1 +1,1 @@
-### practising Codility tests
+### Practise Codility tests
