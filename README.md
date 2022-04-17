@@ -1,4 +1,4 @@
-# Codility
+# Solutions of Codility and LeetCode
 
-Repository for paractising Colility tasks.  
-if you use this at Codility, You need to change class name to `Solution`.
+Repository for solutions of Codility and LeetCode.
+Need to change class name to `Solution`.
