@@ -31,7 +31,7 @@ class Solution {
         return inversionCount;
     }
 
-    private boolean isCurrentElementiggerThanNext(int currentNode, int nextNode) {
-        return currentNode > nextNode;   
+    private boolean isCurrentElementiggerThanNext(int currentElement, int nextElement) {
+        return currentElement > nextElement;   
     }
 }
