@@ -1,4 +1,4 @@
-# Solutions of Codility and LeetCode
+# Solutions of Codility
 
-Repository for solutions of Codility and LeetCode.
+Repository for solutions of Codility.
 Need to change class name to `Solution`.
